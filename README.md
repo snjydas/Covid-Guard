@@ -1,5 +1,5 @@
 # Covid-Guard
-An AI model to detect if people are following social distancing and at the same time are wearing masks.
+An AI model to detect if people are following social distancing & wearing masks for safety.
 [](https://img.shields.io/github/forks/snjydas/Covid-Guard?style=social) ![](https://img.shields.io/github/stars/snjydas/Covid-Guard?style=social) ![](https://img.shields.io/github/watchers/snjydas/Covid-Guard?style=social) <br>
 
 ![](https://img.shields.io/github/repo-size/snjydas/Covid-Guard) ![](https://img.shields.io/github/license/snjydas/Covid-Guard?color=red)<br>
