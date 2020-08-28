@@ -7,7 +7,10 @@ An AI model to detect if people are following social distancing & wearing masks 
 ![](https://img.shields.io/github/issues/snjydas/Covid-Guard?color=green) ![](https://img.shields.io/github/issues-pr/snjydas/Covid-Guard?color=green) ![](https://img.shields.io/github/downloads/snjydas/Covid-Guard/total) ![](https://img.shields.io/github/last-commit/snjydas/Covid-Guard) ![](https://img.shields.io/github/contributors/snjydas/Covid-Guard)
 
 ## Content
-- 
+- [Overview](#overview)
+- [Installation](#installation)
+- [Features](#features)
+- [Clone git repository](#clone git repository)
 - [Reference](#reference)
 - [License](#license)
 - [Contributor](#contributor)
