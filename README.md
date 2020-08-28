@@ -8,10 +8,10 @@ An AI model to detect if people are following social distancing & wearing masks 
 
 ## Content
 - [Overview](#overview)
-- [Getting Started](#getting Started)
+- [Getting Started](#Getting Started)
 - [Installation](#installation)
+- [Demo](#demo)
 - [Features](#features)
-- [Clone git repository](#clone git repository)
 - [Reference](#reference)
 - [License](#license)
 - [Contributor](#contributor)
@@ -38,26 +38,29 @@ An AI model to detect if people are following social distancing & wearing masks 
         |______ Images: [Demo1.jpeg, Demo3.png, Demo4.png, Interface.PNG]
         |______ GIFs: [NO_Mask.1.jpg, NO_Mask.2.jpg, NO_Mask.3.jpg ...]      
 
-      |__ Validation
+      |__ Face Detector
         |______ WithMask: [Mask.1.jpg, Mask.2.jpg, Mask.3.jpg ....]
         |______ NO_Mask: [NO_Mask.1.jpg, NO_Mask.2.jpg, NO_Mask.3.jpg ...]
 
-      |__ testing
+      |__ Images
+        |______ [test.1.jpg, test.2.jpg, test.3.jpg , test.4.jpg , test.5.jpg , ....]
+        
+      |__ Images
         |______ [test.1.jpg, test.2.jpg, test.3.jpg , test.4.jpg , test.5.jpg , ....]
 
 ### Getting Started
+<hr/>
 - Clone the repo and cd into the directory
 ```sh
 $ git clone "https://github.com/snjydas/Covid-Guard"
 $ cd Covid Guard
 ```
 ### Download Model Weights
-
-Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.com/media/files/yolov3.weights) and save the yolov3.weights inside the ./Model Directory.
 <hr/>
+Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.com/media/files/yolov3.weights) and save the yolov3.weights inside the ./Model Directory.
 
 ### Install tensorflow and all the other required libraries 
-
+<hr/>
 ```sh
 $ pip install tensorflow
 $ pip install EasyTkinter
@@ -70,12 +73,13 @@ $ pip install numpy
 
 
 ### To run the Application
-
+<hr/>
 
 ```sh
 $ cd Covid Guard
 $ python "Covid Guard.py"
 ```
+
 
 ### Output prediction
 
@@ -112,12 +116,6 @@ $ python "Covid Guard.py"
 - Real time face mask detection and for social distancing tracking the crowd movement across the day time.
 - Hot-spot area can be monitored by security forces from central station.
 - If AI based solution used by authority then there will be less chance get infected security forces.
-
-## Clone git repository
-
-```sh
-    $ Git clone "https://github.com/snjydas/Covid-Guard"
-```
 
 
 ## Reference
