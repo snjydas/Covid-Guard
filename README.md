@@ -73,8 +73,11 @@ $ pip install keras
 $ pip install Pillow
 $ pip install imutils
 $ pip install numpy
+```sh
+Or
+```sh
+$ pip install -r requirements.txt 
 ```
-
 
 ### To run the Application
 <hr/>
@@ -85,19 +88,22 @@ $ python "Covid Guard.py"
 ```
 
 
-### Output prediction
+### Start
 
 <p align="center">
-<img src=
+<img src="Demo/start.gif", width="640">
 </p>
 
 
 
-### Output prediction
+### Demo
 
 <p align="center">
-<img src=
+    <img src="Demo/start.gif", width="600">
+    <br>
+    <sup></sup>
 </p>
+
 
 ### Real time face mask detecting
 
