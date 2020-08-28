@@ -51,6 +51,8 @@ An AI model to detect if people are following social distancing & wearing masks 
 ### Getting Started
 <hr/>
 - Clone the repo and cd into the directory
+
+
 ```sh
 $ git clone "https://github.com/snjydas/Covid-Guard"
 $ cd Covid Guard
@@ -61,6 +63,8 @@ Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.c
 
 ### Install tensorflow and all the other required libraries 
 <hr/>
+
+
 ```sh
 $ pip install tensorflow
 $ pip install EasyTkinter
@@ -111,15 +115,18 @@ $ python "Covid Guard.py"
 
 ## Features
 
-- live video surveillance to fight against covid-19 spread
+- Live video surveillance to fight against covid-19 spread
 - The project can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 - Real time face mask detection and for social distancing tracking the crowd movement across the day time.
 - Hot-spot area can be monitored by security forces from central station.
-- If AI based solution used by authority then there will be less chance get infected security forces.
+- If AI based solution used by authority, then there will be less chance to infect security forces.
 
 
 ## Reference
 
+- [Pyimagesearch - fine tuning resnet with keras tensorflow and deep-learning](https://www.pyimagesearch.com/2020/04/27/fine-tuning-resnet-with-keras-tensorflow-and-deep-learning/)
+- [Tensorflow - Guide](https://www.tensorflow.org/guide/)
+- [Keras - Guide](https://keras.io/guides/)
 
 ## License
 
