@@ -8,6 +8,7 @@ An AI model to detect if people are following social distancing & wearing masks 
 
 ## Content
 - [Overview](#overview)
+- [Getting Started](#getting Started)
 - [Installation](#installation)
 - [Features](#features)
 - [Clone git repository](#clone git repository)
@@ -15,10 +16,7 @@ An AI model to detect if people are following social distancing & wearing masks 
 - [License](#license)
 - [Contributor](#contributor)
 
-### Download Model Weights
 
-Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.com/media/files/yolov3.weights) and save the yolov3.weights inside the ./Model Directory.
-<hr/>
 
 ### **`Folder structure`**
 <hr/>
@@ -47,7 +45,37 @@ Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.c
       |__ testing
         |______ [test.1.jpg, test.2.jpg, test.3.jpg , test.4.jpg , test.5.jpg , ....]
 
+### Getting Started
+- Clone the repo and cd into the directory
+```sh
+$ git clone "https://github.com/snjydas/Covid-Guard"
+$ cd Covid Guard
+```
+### Download Model Weights
 
+Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.com/media/files/yolov3.weights) and save the yolov3.weights inside the ./Model Directory.
+<hr/>
+
+### Install tensorflow and all the other required libraries 
+
+```sh
+$ pip install tensorflow
+$ pip install EasyTkinter
+$ pip install opencv-python
+$ pip install keras
+$ pip install Pillow
+$ pip install imutils
+$ pip install numpy
+```
+
+
+### To run the Application
+
+
+```sh
+$ cd Covid Guard
+$ python "Covid Guard.py"
+```
 
 ### Output prediction
 
