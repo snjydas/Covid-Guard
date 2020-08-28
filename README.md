@@ -64,7 +64,6 @@ Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.c
 ### Install tensorflow and all the other required libraries 
 <hr/>
 
-
 ```sh
 $ pip install tensorflow
 $ pip install EasyTkinter
@@ -73,8 +72,9 @@ $ pip install keras
 $ pip install Pillow
 $ pip install imutils
 $ pip install numpy
-```sh
+```
 Or
+
 ```sh
 $ pip install -r requirements.txt 
 ```
