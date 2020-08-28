@@ -14,8 +14,7 @@ An AI model to detect if people are following social distancing & wearing masks 
 
 ### Load data
 
-Download the dataset by visiting the [Face mask dataset]() and click the “Download” button.
-
+Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.com/media/files/yolov3.weights) and save the yolov3.weights inside the ./Model Directory.
 <hr/>
 
 ### **`Folder structure`**
