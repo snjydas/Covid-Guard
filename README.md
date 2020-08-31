@@ -48,6 +48,14 @@ An AI model to detect if people are following social distancing & wearing masks 
       |__ Images
         |______ [test.1.jpg, test.2.jpg, test.3.jpg , test.4.jpg , test.5.jpg , ....]
 
+
+### Overview
+
+- In the present scenario due to Covid-19, there is no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. 
+- Amidst the COVID-19 situation,  maintaining social distancing and wearing  masks is ignored. And, no  data is recorded to ﬁnd out which regions  are violating the same. If there is some  way to get this data, necessary  actions can be taken. Well, rest easy as our  solution does this for you!
+#### The proposed system can be used in real-time applications which require face-mask & social distancing detection for safety purposes.
+#### The system can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
+
 ### Getting Started
 <hr/>
 - Clone the repo and cd into the directory
@@ -93,7 +101,7 @@ $ python "Covid Guard.py"
 <p align="center">
 <img src="Demo/start.gif", width="640">
 </p>
-
+![](Demo/Start.gif)
 
 
 ### Demo
