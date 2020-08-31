@@ -94,38 +94,20 @@ $ pip install -r requirements.txt
 $ cd Covid Guard
 $ python "Covid Guard.py"
 ```
-
-
-### Start
-
 <p align="center">
-<img src="Demo/start.gif", width="640">
-</p>
-![](Demo/Start.gif)
-
-
-### Demo
-
-<p align="center">
-    <img src="Demo/start.gif", width="600">
-    <br>
-    <sup></sup>
+<img src="Demo/Start.gif", width="640">
 </p>
 
+### Output
 
-### Real time face mask detecting
+<p align="center">
+<img src="Demo/Gif_1.gif", width="640">
+</p>
 
-<div align="center" style="height:400px"> 
-<img src=' ' width="90%">
-<h4><a href="">Video source :- Why are some wearing face masks?</a></h4>
-</div>
-
-## Social Distancing Detector
-
-<div align="center" style="height:400px"> 
-<img src=' ' width="80%">
-<h4><a href=" ">Video source :- Pedestrian(sample)</a></h4>
-</div>
+### Output- Multiple Persons
+<p align="center">
+<img src="Demo/Gif_2.gif", width="640">
+</p>
 
 ## Features
 
