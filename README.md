@@ -72,7 +72,8 @@ $ cd Covid Guard
 
 ### Download Model Weights
 <hr/>
-Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.com/media/files/yolov3.weights) and save the yolov3.weights inside the ./Model Directory.
+
+Please download the yolov3 model weights by from [pjredddie.com](https://pjreddie.com/media/files/yolov3.weights) & save the yolov3.weights inside the ./Model Directory.
 
 ## Installation
 
