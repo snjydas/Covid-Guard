@@ -8,11 +8,11 @@ An AI model to detect if people are following social distancing & wearing masks 
 
 ## Content
 - [Overview](#overview)
-- [Getting Started](#getting Started)
+- [Setup](#setup)
 - [Installation](#installation)
-- [Running The Application](#running The Application)
+- [Run](#run)
 - [Output](#output)
-- [Output- Multiple Persons](#output- Multiple Persons) 
+- [Output- Multiple Persons](#output:Multiple Persons) 
 - [Features](#features)
 - [Reference](#reference)
 - [License](#license)
@@ -61,7 +61,7 @@ An AI model to detect if people are following social distancing & wearing masks 
 #### The proposed system can be used in real-time applications which require face-mask & social distancing detection for safety purposes.
 #### The system can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 
-## Getting Started
+## Setup
 
 - Clone the repo and cd into the directory
 
@@ -93,7 +93,7 @@ Or
 $ pip install -r requirements.txt 
 ```
 
-## Running The Application
+## Run
 
 ```sh
 $ cd Covid Guard
@@ -106,12 +106,14 @@ $ python "Covid Guard.py"
 ## Output
 
 <p align="center">
-<img src="Demo/Gif_1.gif", width="640">
+<img src="Demo/Gif_1.gif", width="640"></br>
+### Output
 </p>
+</hr></br>
 
-## Output- Multiple Persons
 <p align="center">
-<img src="Demo/Gif_2.gif", width="640">
+<img src="Demo/Gif_2.gif", width="640"></br>
+ ### Output: Multiple Persons In Single Frame
 </p>
 
 ## Features
