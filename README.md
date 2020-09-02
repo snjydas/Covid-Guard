@@ -12,7 +12,6 @@ An AI model to detect if people are following social distancing & wearing masks 
 - [Installation](#installation)
 - [Run](#run)
 - [Output](#output)
-- [Output- Multiple Persons](#output:Multiple Persons) 
 - [Features](#features)
 - [Reference](#reference)
 - [License](#license)
@@ -101,19 +100,20 @@ $ python "Covid Guard.py"
 ```
 <p align="center">
 <img src="Demo/Start.gif", width="640">
+      Demo: Running The Application
 </p>
 
 ## Output
 
 <p align="center">
 <img src="Demo/Gif_1.gif", width="640"></br>
-### Output
+Output: Single Person
 </p>
 </hr></br>
 
 <p align="center">
 <img src="Demo/Gif_2.gif", width="640"></br>
- ### Output: Multiple Persons In Single Frame
+Output: Multiple Persons In Single Frame
 </p>
 
 ## Features
@@ -147,12 +147,12 @@ Licensed under the [MIT License](LICENSE)
 <hr/>
 
 ```bash
-                                          ╔═╗╔╦╗╔═╗╦ ╦  ╦ ╦╔═╗╔╦╗╔═╗
-                                          ╚═╗ ║ ╠═╣╚╦╝  ╠═╣║ ║║║║║╣
-                                          ╚═╝ ╩ ╩ ╩ ╩   ╩ ╩╚═╝╩ ╩╚═╝
-                                          ╔═╗╔╦╗╔═╗╦ ╦  ╔═╗╔═╗╔═╗╔═╗
-                                          ╚═╗ ║ ╠═╣╚╦╝  ╚═╗╠═╣╠╣ ║╣
-                                          ╚═╝ ╩ ╩ ╩ ╩   ╚═╝╩ ╩╚  ╚═╝
+                                                      ╔═╗╔╦╗╔═╗╦ ╦  ╦ ╦╔═╗╔╦╗╔═╗
+                                                      ╚═╗ ║ ╠═╣╚╦╝  ╠═╣║ ║║║║║╣
+                                                      ╚═╝ ╩ ╩ ╩ ╩   ╩ ╩╚═╝╩ ╩╚═╝
+                                                      ╔═╗╔╦╗╔═╗╦ ╦  ╔═╗╔═╗╔═╗╔═╗
+                                                      ╚═╗ ║ ╠═╣╚╦╝  ╚═╗╠═╣╠╣ ║╣
+                                                      ╚═╝ ╩ ╩ ╩ ╩   ╚═╝╩ ╩╚  ╚═╝
 ```
 
 </p>
