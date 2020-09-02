@@ -8,8 +8,8 @@ An AI model to detect if people are following social distancing & wearing masks 
 
 ## Content
 - [Overview](#overview)
-- [Getting Started](#Getting Started)
-- [Installation](#installation)
+- [Getting Started](#getting Started)
+- [Install tensorflow and all the other required libraries](#install tensorflow and all the other required libraries)
 - [Demo](#demo)
 - [Features](#features)
 - [Reference](#reference)
@@ -35,18 +35,21 @@ An AI model to detect if people are following social distancing & wearing masks 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --video_recorder.py <br/>
 
       |__ Demo
-        |______ Images: [Demo1.jpeg, Demo3.png, Demo4.png, Interface.PNG]
-        |______ GIFs: [NO_Mask.1.jpg, NO_Mask.2.jpg, NO_Mask.3.jpg ...]      
+        |______ Images: [Demo1.jpeg, Demo3.png, Demo4.png, Interface.PNG, Code Snippet.PNG]
+        |______ GIFs: [Gif_1.gif, Start.gif, Gif_2.gif]      
 
       |__ Face Detector
-        |______ WithMask: [Mask.1.jpg, Mask.2.jpg, Mask.3.jpg ....]
-        |______ NO_Mask: [NO_Mask.1.jpg, NO_Mask.2.jpg, NO_Mask.3.jpg ...]
+        |______ deploy.prototxt
+        |______ res10_300x300_ssd_iter_140000.caffemodel
 
       |__ Images
-        |______ [test.1.jpg, test.2.jpg, test.3.jpg , test.4.jpg , test.5.jpg , ....]
+        |______ [background.jpg, Load.gif, Logo.ico, TrojanWave.png]
         
-      |__ Images
-        |______ [test.1.jpg, test.2.jpg, test.3.jpg , test.4.jpg , test.5.jpg , ....]
+      |__ Model
+        |______ [coco.names, mask_detector.model, Model.png, README.txt, yolov3.cfg ]
+          
+      |__ Output
+        |______ [ Gif_1.mp4, Gif_2.mp4, Loading.mp4]
 
 
 ### Overview
