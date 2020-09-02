@@ -9,8 +9,10 @@ An AI model to detect if people are following social distancing & wearing masks 
 ## Content
 - [Overview](#overview)
 - [Getting Started](#getting Started)
-- [Install tensorflow and all the other required libraries](#install tensorflow and all the other required libraries)
-- [Demo](#demo)
+- [Installation](#installation)
+- [Running The Application](#running The Application)
+- [Output](#output)
+- [Output- Multiple Persons](#output- Multiple Persons) 
 - [Features](#features)
 - [Reference](#reference)
 - [License](#license)
@@ -52,15 +54,15 @@ An AI model to detect if people are following social distancing & wearing masks 
         |______ [ Gif_1.mp4, Gif_2.mp4, Loading.mp4]
 
 
-### Overview
+## Overview
 
 - In the present scenario due to Covid-19, there is no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. 
 - Amidst the COVID-19 situation,  maintaining social distancing and wearing  masks is ignored. And, no  data is recorded to ﬁnd out which regions  are violating the same. If there is some  way to get this data, necessary  actions can be taken. Well, rest easy as our  solution does this for you!
 #### The proposed system can be used in real-time applications which require face-mask & social distancing detection for safety purposes.
 #### The system can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 
-### Getting Started
-<hr/>
+## Getting Started
+
 - Clone the repo and cd into the directory
 
 
@@ -68,12 +70,13 @@ An AI model to detect if people are following social distancing & wearing masks 
 $ git clone "https://github.com/snjydas/Covid-Guard"
 $ cd Covid Guard
 ```
+
 ### Download Model Weights
 <hr/>
 Please Download yolov3 model weights by from: [pjredddie.com](https://pjreddie.com/media/files/yolov3.weights) and save the yolov3.weights inside the ./Model Directory.
 
-### Install tensorflow and all the other required libraries 
-<hr/>
+## Installation
+
 
 ```sh
 $ pip install tensorflow
@@ -90,8 +93,7 @@ Or
 $ pip install -r requirements.txt 
 ```
 
-### To run the Application
-<hr/>
+## Running The Application
 
 ```sh
 $ cd Covid Guard
@@ -101,13 +103,13 @@ $ python "Covid Guard.py"
 <img src="Demo/Start.gif", width="640">
 </p>
 
-### Output
+## Output
 
 <p align="center">
 <img src="Demo/Gif_1.gif", width="640">
 </p>
 
-### Output- Multiple Persons
+## Output- Multiple Persons
 <p align="center">
 <img src="Demo/Gif_2.gif", width="640">
 </p>
@@ -143,12 +145,12 @@ Licensed under the [MIT License](LICENSE)
 <hr/>
 
 ```bash
-╔═╗╔╦╗╔═╗╦ ╦  ╦ ╦╔═╗╔╦╗╔═╗
-╚═╗ ║ ╠═╣╚╦╝  ╠═╣║ ║║║║║╣
-╚═╝ ╩ ╩ ╩ ╩   ╩ ╩╚═╝╩ ╩╚═╝
-╔═╗╔╦╗╔═╗╦ ╦  ╔═╗╔═╗╔═╗╔═╗
-╚═╗ ║ ╠═╣╚╦╝  ╚═╗╠═╣╠╣ ║╣
-╚═╝ ╩ ╩ ╩ ╩   ╚═╝╩ ╩╚  ╚═╝
+                                          ╔═╗╔╦╗╔═╗╦ ╦  ╦ ╦╔═╗╔╦╗╔═╗
+                                          ╚═╗ ║ ╠═╣╚╦╝  ╠═╣║ ║║║║║╣
+                                          ╚═╝ ╩ ╩ ╩ ╩   ╩ ╩╚═╝╩ ╩╚═╝
+                                          ╔═╗╔╦╗╔═╗╦ ╦  ╔═╗╔═╗╔═╗╔═╗
+                                          ╚═╗ ║ ╠═╣╚╦╝  ╚═╗╠═╣╠╣ ║╣
+                                          ╚═╝ ╩ ╩ ╩ ╩   ╚═╝╩ ╩╚  ╚═╝
 ```
 
 </p>
