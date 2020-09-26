@@ -100,8 +100,9 @@ $ cd Covid Guard
 $ python "Covid Guard.py"
 ```
 <p align="center">
-<img src="Demo/Start.gif", width="640">
-      Demo: Running The Application
+<img src="Demo/Start.gif", width="640"></p>
+<p align="center">     
+Demo: Running The Application
 </p>
 
 ## Output
